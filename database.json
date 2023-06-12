@@ -1,0 +1,499 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Alfred Thompson",
+            "email": "athompson@yahoo.com",
+            "password": "pineapple",
+            "countyId": 3,
+            "username": "PineappleEnthusiast"
+        },
+        {
+            "id": 2,
+            "name": "Mary Johnson",
+            "email": "maryj@example.com",
+            "password": "grapes",
+            "countyId": 5,
+            "username": "GrapeGrower"
+        },
+        {
+            "id": 3,
+            "name": "Robert Smith",
+            "email": "roberts@example.com",
+            "password": "orange",
+            "countyId": 2,
+            "username": "OrangeLover"
+        },
+        {
+            "id": 4,
+            "name": "Elizabeth Davis",
+            "email": "elizabethd@example.com",
+            "password": "strawberry",
+            "countyId": 9,
+            "username": "StrawberryQueen"
+        },
+        {
+            "id": 5,
+            "name": "William Wilson",
+            "email": "williamw@example.com",
+            "password": "banana",
+            "countyId": 4,
+            "username": "BananaFarmer"
+        },
+        {
+            "id": 6,
+            "name": "Sarah Martinez",
+            "email": "sarahm@example.com",
+            "password": "apple",
+            "countyId": 6,
+            "username": "AppleHarvest"
+        },
+        {
+            "id": 7,
+            "name": "David Johnson",
+            "email": "davidj@example.com",
+            "password": "blueberry",
+            "countyId": 1,
+            "username": "BlueberryGardener"
+        },
+        {
+            "id": 8,
+            "name": "Jennifer Brown",
+            "email": "jenniferb@example.com",
+            "password": "mango",
+            "countyId": 8,
+            "username": "MangoHarvester"
+        },
+        {
+            "id": 9,
+            "name": "Michael Clark",
+            "email": "michaelc@example.com",
+            "password": "cherry",
+            "countyId": 5,
+            "username": "CherryPicker"
+        },
+        {
+            "id": 10,
+            "name": "Jessica Thomas",
+            "email": "jessicat@example.com",
+            "password": "watermelon",
+            "countyId": 10,
+            "username": "WatermelonFarmer"
+        }
+    ],
+    "posts": [
+        {
+            "id": 1,
+            "countyId": 5,
+            "dateAvailableTil": "2023-07-13",
+            "dateCreated": "2023-06-12",
+            "trade": true,
+            "userId": 3,
+            "description": "I have so many juicy ripe tomatoes. I mostly have cherry sizes right now. Message me if you want more info on the varieties. I'd love to trade for some zucchini!",
+            "photoURL": "https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.redd.it%2F85o1jepgkshz.jpg&f=1&nofb=1&ipt=e58155fb5ca0f370b8c91f8376bd85c4c42a1af34f77de5fa9a5f5007898934c&ipo=images",
+            "cropType": 2,
+            "title": "Juicy Ripe Tomatoes for Trade"
+        },
+        {
+            "id": 2,
+            "countyId": 1,
+            "dateAvailableTil": "2023-06-15",
+            "dateCreated": "2023-06-12",
+            "trade": false,
+            "userId": 7,
+            "description": "Freshly picked cucumbers available. Perfect for salads or pickling. Contact me if interested!",
+            "photoURL": "https://example.com/cucumber.jpg",
+            "cropType": 1,
+            "title": "Freshly Picked Cucumbers Available"
+        },
+        {
+            "id": 3,
+            "countyId": 10,
+            "dateAvailableTil": "2023-06-20",
+            "dateCreated": "2023-06-12",
+            "trade": true,
+            "userId": 9,
+            "description": "Looking to trade my homegrown basil for some fresh garlic. Let me know if you're interested!",
+            "photoURL": "https://example.com/basil.jpg",
+            "cropType": 3,
+            "title": "Trade Homegrown Basil for Fresh Garlic"
+        },
+        {
+            "id": 4,
+            "countyId": 2,
+            "dateAvailableTil": "2023-06-25",
+            "dateCreated": "2023-06-12",
+            "trade": true,
+            "userId": 3,
+            "description": "I have a surplus of sweet corn from my farm. Willing to trade for other vegetables. Reach out if interested!",
+            "photoURL": "https://example.com/sweet-corn.jpg",
+            "cropType": 1,
+            "title": "Surplus of Sweet Corn for Trade"
+        },
+        {
+            "id": 5,
+            "countyId": 5,
+            "dateAvailableTil": "2023-06-18",
+            "dateCreated": "2023-06-12",
+            "trade": false,
+            "userId": 2,
+            "description": "Freshly harvested watermelons available. They are juicy and sweet. Contact me for more details!",
+            "photoURL": "https://example.com/watermelon.jpg",
+            "cropType": 2,
+            "title": "Juicy Watermelons Available"
+        },
+        {
+            "id": 6,
+            "countyId": 8,
+            "dateAvailableTil": "2023-06-30",
+            "dateCreated": "2023-06-12",
+            "trade": true,
+            "userId": 8,
+            "description": "I have a variety of heirloom tomatoes ready for trade. Looking for different varieties of peppers. Let's make a deal!",
+            "photoURL": "https://example.com/heirloom-tomatoes.jpg",
+            "cropType": 1,
+            "title": "Trade Heirloom Tomatoes for Peppers"
+        },
+        {
+            "id": 7,
+            "countyId": 3,
+            "dateAvailableTil": "2023-06-16",
+            "dateCreated": "2023-06-12",
+            "trade": false,
+            "userId": 1,
+            "description": "Freshly harvested zucchinis available. They are organic and pesticide-free. Contact me if interested!",
+            "photoURL": "https://example.com/zucchini.jpg",
+            "cropType": 1,
+            "title": "Organic Zucchinis Available"
+        },
+        {
+            "id": 8,
+            "countyId": 7,
+            "dateAvailableTil": "2023-06-25",
+            "dateCreated": "2023-06-12",
+            "trade": true,
+            "userId": 6,
+            "description": "I have a surplus of blueberries from my farm. Willing to trade for other fruits or vegetables. Reach out if interested!",
+            "photoURL": "https://example.com/blueberries.jpg",
+            "cropType": 2,
+            "title": "Trade Surplus Blueberries for Fruits or Vegetables"
+        },
+        {
+            "id": 9,
+            "countyId": 5,
+            "dateAvailableTil": "2023-06-20",
+            "dateCreated": "2023-06-12",
+            "trade": false,
+            "userId": 10,
+            "description": "Freshly picked strawberries available. They are delicious and ripe. Contact me for more details!",
+            "photoURL": "https://example.com/strawberries.jpg",
+            "cropType": 2,
+            "title": "Freshly Picked Strawberries Available"
+        },
+        {
+            "id": 10,
+            "countyId": 4,
+            "dateAvailableTil": "2023-06-22",
+            "dateCreated": "2023-06-12",
+            "trade": true,
+            "userId": 5,
+            "description": "I have an abundance of yellow squash from my garden. Looking to trade for different vegetables. Let's negotiate!",
+            "photoURL": "https://example.com/yellow-squash.jpg",
+            "cropType": 1,
+            "title": "Abundance of Yellow Squash for Trade"
+        },
+        {
+            "id": 11,
+            "countyId": 6,
+            "dateAvailableTil": "2023-06-19",
+            "dateCreated": "2023-06-12",
+            "trade": false,
+            "userId": 6,
+            "description": "Freshly harvested bell peppers available. They come in various colors. Contact me if interested!",
+            "photoURL": "https://example.com/bell-peppers.jpg",
+            "cropType": 1,
+            "title": "Freshly Harvested Bell Peppers Available"
+        },
+        {
+            "id": 12,
+            "countyId": 1,
+            "dateAvailableTil": "2023-06-23",
+            "dateCreated": "2023-06-12",
+            "trade": true,
+            "userId": 4,
+            "description": "I have a surplus of honey from my beehives. Willing to trade for different fruits or vegetables. Reach out if interested!",
+            "photoURL": "https://example.com/honey.jpg",
+            "cropType": 2,
+            "title": "Trade Surplus Honey for Fruits or Vegetables"
+        },
+        {
+            "id": 13,
+            "countyId": 8,
+            "dateAvailableTil": "2023-06-28",
+            "dateCreated": "2023-06-12",
+            "trade": false,
+            "userId": 8,
+            "description": "Freshly picked kale available. It's organic and full of nutrients. Contact me for more details!",
+            "photoURL": "https://example.com/kale.jpg",
+            "cropType": 1,
+            "title": "Fresh Organic Kale Available"
+        },
+        {
+            "id": 14,
+            "countyId": 3,
+            "dateAvailableTil": "2023-06-21",
+            "dateCreated": "2023-06-12",
+            "trade": true,
+            "userId": 1,
+            "description": "I have a variety of fresh herbs from my garden. Looking to trade for different herbs or spices. Let's make a deal!",
+            "photoURL": "https://example.com/herbs.jpg",
+            "cropType": 3,
+            "title": "Trade Fresh Herbs for Different Herbs or Spices"
+        },
+        {
+            "id": 15,
+            "countyId": 10,
+            "dateAvailableTil": "2023-06-24",
+            "dateCreated": "2023-06-12",
+            "trade": false,
+            "userId": 10,
+            "description": "Freshly harvested apples available. They are crispy and flavorful. Contact me if interested!",
+            "photoURL": "https://example.com/apples.jpg",
+            "cropType": 2,
+            "title": "Freshly Harvested Apples Available"
+        },
+        {
+            "id": 16,
+            "countyId": 5,
+            "dateAvailableTil": "2023-06-26",
+            "dateCreated": "2023-06-12",
+            "trade": true,
+            "userId": 2,
+            "description": "I have an excess of cucumbers from my garden. Willing to trade for different vegetables. Let's negotiate!",
+            "photoURL": "https://example.com/cucumbers.jpg",
+            "cropType": 1,
+            "title": "Trade Excess Cucumbers for Different Vegetables"
+        },
+        {
+            "id": 17,
+            "countyId": 4,
+            "dateAvailableTil": "2023-06-29",
+            "dateCreated": "2023-06-12",
+            "trade": false,
+            "userId": 5,
+            "description": "Freshly picked peaches available. They are sweet and juicy. Contact me for more details!",
+            "photoURL": "https://example.com/peaches.jpg",
+            "cropType": 2,
+            "title": "Freshly Picked Sweet Peaches Available"
+        },
+        {
+            "id": 18,
+            "countyId": 6,
+            "dateAvailableTil": "2023-06-30",
+            "dateCreated": "2023-06-12",
+            "trade": true,
+            "userId": 6,
+            "description": "I have a variety of fresh lettuce available. Looking to trade for different salad greens. Let's make a deal!",
+            "photoURL": "https://example.com/lettuce.jpg",
+            "cropType": 1,
+            "title": "Trade Fresh Lettuce for Different Salad Greens"
+        },
+        {
+            "id": 19,
+            "countyId": 9,
+            "dateAvailableTil": "2023-06-22",
+            "dateCreated": "2023-06-12",
+            "trade": true,
+            "userId": 7,
+            "description": "I have a surplus of carrots from my farm. Willing to trade for other vegetables. Reach out if interested!",
+            "photoURL": "https://example.com/carrots.jpg",
+            "cropType": 1,
+            "title": "Surplus of Carrots for Trade"
+        },
+        {
+            "id": 20,
+            "countyId": 2,
+            "dateAvailableTil": "2023-06-27",
+            "dateCreated": "2023-06-12",
+            "trade": false,
+            "userId": 3,
+            "description": "Freshly harvested strawberries available. They are sweet and delicious. Contact me if interested!",
+            "photoURL": "https://example.com/strawberries.jpg",
+            "cropType": 2,
+            "title": "Freshly Harvested Strawberries Available"
+        }
+    ],    
+    "counties": [
+        {
+            "id": 1,
+            "name": "Bedford"
+        },
+        {
+            "id": 2,
+            "name": "Cannon"
+        },
+        {
+            "id": 3,
+            "name": "Cheatham"
+        },
+        {
+            "id": 4,
+            "name": "Coffee"
+        },
+        {
+            "id": 5,
+            "name": "Davidson"
+        },
+        {
+            "id": 6,
+            "name": "Dickson"
+        },
+        {
+            "id": 7,
+            "name": "Franklin"
+        },
+        {
+            "id": 8,
+            "name": "Giles"
+        },
+        {
+            "id": 9,
+            "name": "Grundy"
+        },
+        {
+            "id": 10,
+            "name": "Hickman"
+        },
+        {
+            "id": 11,
+            "name": "Houston"
+        },
+        {
+            "id": 12,
+            "name": "Humphreys"
+        },
+        {
+            "id": 13,
+            "name": "Lawrence"
+        },
+        {
+            "id": 14,
+            "name": "Lewis"
+        },
+        {
+            "id": 15,
+            "name": "Lincoln"
+        },
+        {
+            "id": 16,
+            "name": "Macon"
+        },
+        {
+            "id": 17,
+            "name": "Marshall"
+        },
+        {
+            "id": 18,
+            "name": "Maury"
+        },
+        {
+            "id": 19,
+            "name": "Montgomery"
+        },
+        {
+            "id": 20,
+            "name": "Moore"
+        },
+        {
+            "id": 21,
+            "name": "Overton"
+        },
+        {
+            "id": 22,
+            "name": "Perry"
+        },
+        {
+            "id": 23,
+            "name": "Pickett"
+        },
+        {
+            "id": 24,
+            "name": "Putnam"
+        },
+        {
+            "id": 25,
+            "name": "Robertson"
+        },
+        {
+            "id": 26,
+            "name": "Rutherford"
+        },
+        {
+            "id": 27,
+            "name": "Smith"
+        },
+        {
+            "id": 28,
+            "name": "Stewart"
+        },
+        {
+            "id": 29,
+            "name": "Sumner"
+        },
+        {
+            "id": 30,
+            "name": "Trousdale"
+        },
+        {
+            "id": 31,
+            "name": "Van Buren"
+        },
+        {
+            "id": 32,
+            "name": "Warren"
+        },
+        {
+            "id": 33,
+            "name": "Wayne"
+        },
+        {
+            "id": 34,
+            "name": "White"
+        },
+        {
+            "id": 35,
+            "name": "Williamson"
+        },
+        {
+            "id": 36,
+            "name": "Wilson"
+        }
+    ],
+    "messages": [
+        {
+            "id": 1,
+            "senderId": 2,
+            "recipientId": 3,
+            "message": "I have some zucchini that I'd like to trade for yiour tomatoes! I have about 15 pounds. How much would you like?",
+            "postId": "1"
+        }
+    ],
+    "cropTypes": [
+        {
+            "id": 1,
+            "name": "vegetable"
+        },
+        {
+            "id": 2,
+            "name": "fruit"
+        },
+        {
+            "id": 3,
+            "name": "herb"
+        },
+        {
+            "id": 4,
+            "name": "mushroom"
+        }
+    ]
+}
