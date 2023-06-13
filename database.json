@@ -322,7 +322,7 @@
             "cropTypeId": 2,
             "title": "Freshly Harvested Strawberries Available"
         }
-    ],    
+    ],
     "counties": [
         {
             "id": 1,
@@ -471,11 +471,32 @@
     ],
     "messages": [
         {
-            "id": 1,
-            "senderId": 2,
-            "recipientId": 3,
-            "text": "I have some zucchini that I'd like to trade for yiour tomatoes! I have about 15 pounds. How much would you like?",
-            "postId": 1
+            "userId": 1,
+            "recipientId": 9,
+            "text": "I'd love some of your garlic. I have some garlic that I just harvested! Where would you like to meet?",
+            "postId": 3,
+            "id": 2
+        },
+        {
+            "userId": 3,
+            "recipientId": 8,
+            "text": "Hey! I have a variety of hot and sweet peppers that I would love to trade for some of your tomatoes! I have around a couple pounds of jalapenos and habaneros and a few pounds of bell peppers. Let me know when would be a good time to meet up this week!",
+            "postId": 6,
+            "id": 3
+        },
+        {
+            "userId": 4,
+            "recipientId": 8,
+            "text": "Hey! I have a variety of hot and sweet peppers that I would love to trade for some of your tomatoes! I have around a couple pounds of jalapenos and habaneros and a few pounds of bell peppers. Let me know when would be a good time to meet up this week!",
+            "postId": 6,
+            "id": 4
+        },
+        {
+            "userId": 3,
+            "recipientId": 6,
+            "text": "Hi! I'd love to trade for some of your blueberries!! I have some extra lettuce, kale, and yellow summer squash. Let me know if any of that interests you. Thanks!",
+            "postId": 8,
+            "id": 5
         }
     ],
     "cropTypes": [
